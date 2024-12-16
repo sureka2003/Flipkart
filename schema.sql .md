@@ -2,13 +2,16 @@ SETUP FLIPKART DATABASE SCHEMA
 
 DROP TABLE IF EXISTS payments, shippings, sales, products, customers;
 
+```sql
 CREATE TABLE customers  
 (  
 	customer\_id	INT PRIMARY KEY,  
 	customer\_name	VARCHAR(35),  
 	state VARCHAR(25)  
 );
+```
 
+```sql
 CREATE TABLE products  
 (  
 	product\_id INT PRIMARY KEY,	  
@@ -18,7 +21,8 @@ CREATE TABLE products
 	category	VARCHAR(25),  
 	brand VARCHAR(25)  
 );
-
+```
+```sql
 CREATE TABLE sales  
 (  
 order\_id	INT PRIMARY KEY,  
@@ -31,7 +35,9 @@ price\_per\_unit FLOAT
 \-- ,CONSTRAINT customer\_id\_cust FOREIGN KEY (customer\_id) REFERENCES customers(customer\_id),  
 \-- CONSTRAINT product\_id\_prod FOREIGN KEY (product\_id) REFERENCES products(product\_id)  
 );
+```
 
+```sql
 CREATE TABLE payments  
 (  
 payment\_id	INT,  
@@ -39,7 +45,8 @@ order\_id	INT REFERENCES sales(order\_id),
 payment\_date	date,  
 payment\_status VARCHAR(55)  
 );
-
+```
+```sql
 CREATE TABLE shippings  
 (  
 shipping\_id INT,	  
@@ -49,6 +56,8 @@ return\_date	 DATE,
 shipping\_providers VARCHAR(55),	  
 delivery\_status VARCHAR(55)	  
 );
-
+```
+```sql
 SELECT 'Flipkart Database created successfull\!';
 
+```
