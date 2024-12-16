@@ -76,18 +76,18 @@ Here’s an overview of the database structure:
 The following queries were created to solve specific business questions. Each query is designed to provide insights based on sales, payments, products, and customer data.
 
 ### Easy 
-1. `Add your questions here`
-2. `Add your questions here`
-3. `Add your questions here`
-4. `Add your questions here`
-5. `Add your questions here`
+1. `Find the most popular product based on total quantity sold in 2023.`
+2. `Get the count of returned orders by shipping provider in 2023 `
+3. `Show the total revenue generated per month for the year 2023.`
+4. `Find the customers who have made the most purchases in a single month.`
+5. `Retrieve the number of orders made per product category in 2023 and order by total quantity sold.`
    
 ### Medium to Hard
-1. `Add your questions here`
-2. `Add your questions here`
-3. `Add your questions here`
-4. `Add your questions here`
-5. `Add your questions here`
+1. `Get a list of all customers who have placed orders, including those with no payment records.`
+2. `Retrieve products ordered by customers who are in the 'Gujarat' state and whose total order price is greater than 15,000 `
+3. `Retrieve the total sales per customer in 'Delhi' where the order status is 'Completed' only include those with total sales greater than 50,000.`
+4. ` Show the total quantity sold per product in the 'Accessories' category where the total quantity sold is greater than 50`
+5. `Get the top 5 customers by total spending on 'Accessories'`
    
 ---
 
