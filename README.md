@@ -1,7 +1,7 @@
 
 # Flipkart E-commerce SQL Project
 
-![Project Banner Placeholder](https://drive.google.com/file/d/1xkWlz-lU8nRLJUx8UnG63zJ_ToIz8Kqn/view?usp=sharing)
+![Project Banner Placeholder](https://drive.google.com/file/d/1xkWlz-lU8nRLJUx8UnG63zJ_ToIz8Kqn/view)
 
 Welcome to my SQL project, where I analyze real-time data from **Flipkart**! This project uses a dataset of **20,000+ sales records** and additional tables for payments, products, and shipping data to explore and analyze e-commerce transactions, product sales, and customer interactions. The project aims to solve business problems through SQL queries, helping Flipkart make informed decisions.
 
@@ -29,7 +29,7 @@ This project demonstrates essential SQL skills by analyzing e-commerce data from
 
 ---
 ## ERD (Entity-Relationship Diagram)
-![ERD Placeholder](https://drive.google.com/file/d/1H7xYdXlWFLgoFqMqbzEGuANpjgGyTgQa/view?usp=sharing)
+![ERD Placeholder](https://drive.google.com/file/d/1H7xYdXlWFLgoFqMqbzEGuANpjgGyTgQa/view)
 
 ## Database Schema
 
