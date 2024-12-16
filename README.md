@@ -29,7 +29,7 @@ This project demonstrates essential SQL skills by analyzing e-commerce data from
 
 ---
 ## ERD (Entity-Relationship Diagram)
-![ERD Placeholder](https://drive.google.com/file/d/1H7xYdXlWFLgoFqMqbzEGuANpjgGyTgQa/view)
+![ERD Placeholder](https://github.com/sureka2003/Flipkart/blob/main/Flipkart%20ERD.pgerd.png)
 
 ## Database Schema
 
